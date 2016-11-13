@@ -1,0 +1,25 @@
+site_name: My Docs
+pages:
+ - Home: index.md
+ - vim:
+     - ".vimrc": vim_config.md
+     - "cheat-sheet": vim_cheat_sheet.md
+theme: readthedocs
+
+markdown_extensions:
+ - extra
+ - abbr
+ - attr_list
+ - fenced_code
+ - footnotes
+ - tables
+ - smart_strong
+ - admonition
+ - codehilite
+ - headerid
+ - meta
+ - nl2br
+ - sane_lists
+ - smarty
+ - toc
+ - wikilinks
